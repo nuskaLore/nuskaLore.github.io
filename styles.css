@@ -3,7 +3,6 @@ body {
     color: aliceblue;
     font-family: 'Lacquer', cursive;
     font-size: 16px;
-    /* Tamaño de letra más grande */
 }
 
 p {
@@ -11,6 +10,16 @@ p {
     color: white;
     font-family: 'Lacquer', cursive;
     font-size: 18px;
-    /* Tamaño de letra más grande */
-    /* Aplica la fuente 'Lacquer' */
+}
+
+textarea {
+    font-weight: bold;
+    font-size: 20px;
+    /* Larger font size */
+    width: 100%;
+    /* Make the textarea take up the full width of its container */
+    padding: 10px;
+    /* Add padding for better positioning */
+    box-sizing: border-box;
+    /* Include padding in the total width */
 }
